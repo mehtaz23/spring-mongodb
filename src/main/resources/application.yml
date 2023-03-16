@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      host: mongodb-container
+      port: 27017
+      database: test
+  security:
+    user:
+      name: user
+      password: password
