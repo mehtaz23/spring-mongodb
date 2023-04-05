@@ -8,3 +8,8 @@ spring:
     user:
       name: user
       password: password
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, prometheus
